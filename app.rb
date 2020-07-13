@@ -6,5 +6,6 @@ class App < Sinatra::Base
   end 
   
   post '/render' do 
-    
+    erb :purchase_item
+  end 
 end
