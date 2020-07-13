@@ -5,7 +5,7 @@ class App < Sinatra::Base
     erb :index
   end 
   
-  post '/render' do 
+  post '/checkout' do 
     erb :purchase_item
   end 
 end
