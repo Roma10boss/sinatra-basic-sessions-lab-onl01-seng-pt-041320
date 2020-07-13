@@ -6,6 +6,6 @@ class App < Sinatra::Base
   end 
   
   post '/checkout' do 
-    erb :purchase_item
+    @session 
   end 
 end
